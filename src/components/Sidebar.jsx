@@ -154,7 +154,7 @@ const Sidebar = memo(function Sidebar({
           <SectionHeader>Agents</SectionHeader>
           <NavItem
             icon={<Shield />}
-            label="규제 진단"
+            label="설계 적합성 검증"
             desc="설계 적합성 자동 분석"
             active={currentView === "diagnosis"}
             onClick={() => setCurrentView("diagnosis")}
